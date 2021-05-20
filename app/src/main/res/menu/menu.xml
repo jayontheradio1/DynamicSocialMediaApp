@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/logoutmenu"
+        android:orderInCategory="100"
+        app:showAsAction="always"
+        android:title="Logout"
+        >
+    </item>
+
+    <item
+        android:id="@+id/PSettings"
+        android:orderInCategory="200"
+        app:showAsAction="never"
+        android:title="Profile"
+        >
+    </item>
+    <item
+        android:id="@+id/uploadpdf1"
+        android:orderInCategory="201"
+        android:title="Upload Files"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/vpdf"
+        android:orderInCategory="202"
+        android:title="View PDF" />
+
+    <item
+        android:id="@+id/forumposts"
+        android:orderInCategory="204"
+        android:title="Posts" />
+
+</menu>
